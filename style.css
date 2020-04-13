@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+body {
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.home {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar {
+    padding-top: 3rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: 3rem;
+    background: #266f72;
+}
+
+.navbar a:hover {
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(7, 46, 41);
+}
+
+.footer {
+    background: #266f72;
+}
+
+    .footer--dark {
+        color: #fff;
+    }
+
+    .footer__text-container {
+        overflow: hidden;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+.logo-text {
+    line-height: 40px;
+    float: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    float: left;
+    height: 40px;
+    margin-top: 1rem;
+    margin-right: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.intro {
+    margin-top:20px;
+}
+
+.role-tabs {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+.text-left {
+    float: left;
+}
+/* 
+.text-right {
+}
+
+.text-middle {
+}
+
+ */
+
